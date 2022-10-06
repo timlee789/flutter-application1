@@ -46,33 +46,5 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyB3eJE1p_SnNAI7VtqFIJPPftYrKLBumN8',
-    appId: '1:586079588822:web:1cfc4c41e0365ab2341477',
-    messagingSenderId: '586079588822',
-    projectId: 'samplecode-fe026',
-    authDomain: 'samplecode-fe026.firebaseapp.com',
-    databaseURL: 'https://samplecode-fe026-default-rtdb.firebaseio.com',
-    storageBucket: 'samplecode-fe026.appspot.com',
-  );
-
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAYxPlYG9TIjt_61UDx5tv7ioRZkrTa-eI',
-    appId: '1:586079588822:android:a059f844b9d04fd7341477',
-    messagingSenderId: '586079588822',
-    projectId: 'samplecode-fe026',
-    databaseURL: 'https://samplecode-fe026-default-rtdb.firebaseio.com',
-    storageBucket: 'samplecode-fe026.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyChn2ZgI2bvKOVr69hq6oYAutT8kWrILJA',
-    appId: '1:586079588822:ios:4a963e06f47dd00e341477',
-    messagingSenderId: '586079588822',
-    projectId: 'samplecode-fe026',
-    databaseURL: 'https://samplecode-fe026-default-rtdb.firebaseio.com',
-    storageBucket: 'samplecode-fe026.appspot.com',
-    iosClientId: '586079588822-277g890er564kg7ddno906b7kin9fn9j.apps.googleusercontent.com',
-    iosBundleId: 'com.example.flutterfireApplication1',
-  );
+ 
 }
